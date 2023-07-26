@@ -1,3 +1,5 @@
 # Face Recognition
 
-Face recognition with tensorflow. This project is task 1 of the CodeClause Internship in Machine Learning.
+## Task 1 in CodeClause Internship in Machine Learning
+
+Face recognition with TensorFlow
