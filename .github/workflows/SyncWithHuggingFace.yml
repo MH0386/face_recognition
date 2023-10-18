@@ -14,7 +14,7 @@ jobs:
     - name: Sync With Hugging Face Hub
       uses: nateraw/huggingface-sync-action@v0.0.5
       with:
-        github_repo_id: 'MH0386/digit_recognizer'
-        huggingface_repo_id: 'MH0386/digit_recognizer'
+        github_repo_id: 'MH0386/face_recognition'
+        huggingface_repo_id: 'MH0386/face_recognition'
         hf_token: ${{ secrets.HF_TOKEN }}
         subdirectory: 'Model'
