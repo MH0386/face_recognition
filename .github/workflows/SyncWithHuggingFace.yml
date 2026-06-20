@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
     - name: Sync With Hugging Face Hub
       uses: nateraw/huggingface-sync-action@v0.0.5
       with:
